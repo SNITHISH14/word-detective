@@ -1,0 +1,231 @@
+/* ===== TOP STRIP ===== */
+.top-strip {
+    position: relative;
+}
+
+/* Orange shape */
+.orange-strip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 220px;
+}
+
+/* ===== HEADER AREA ===== */
+.header-container {
+    max-width: 960px;
+    padding: 40px 85px 20px;
+}
+
+/* Zoom image */
+.zoom-image {
+    position: absolute;
+    top: 100px;        /* overlaps banner */
+    right: 0;
+    width: 220px;
+}
+
+/* Titles */
+.small-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.big-title {
+    font-family: Freeman;
+    font-size: 50px;
+    color: #23408F;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-container {
+    max-width: 960px;
+    padding: 20px 85px 85px;
+}
+
+.section-title {
+    font-family: Freeman;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blue-text {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    color: #23408F;
+}
+
+/* Inputs */
+.word-input {
+    width: 100%;
+    background: #F4F4F4;
+    border: 1px solid #686666;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    .header-container,
+    .main-container {
+        padding: 20px;
+    }
+
+    .zoom-image {
+        width: 140px;
+        top: -60px;
+    }
+
+    .orange-strip {
+        width: 120px;
+    }
+}
+/* ===== Header Containers ===== */
+.header-container,
+.main-container {
+    max-width: 960px;
+    padding: 40px 85px;
+}
+
+/* Titles */
+.small-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+}
+
+.big-title {
+    font-family: Freeman;
+    font-size: 50px;
+    color: #23408F;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+/* Table */
+.table-box {
+    border: 1px solid #9E9D9D;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #D3D9E9;
+    color: #23408F;
+    font-weight: 700;
+}
+
+/* Frayer */
+.frayer-box {
+    border: 1px solid #9E9D9D;
+    border-radius: 14px;
+    padding: 20px;
+    position: relative;
+}
+
+.word-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #9E9D9D;
+    font-weight: 600;
+}
+
+.textarea {
+    height: 120px;
+}
+
+/* Suffix boxes */
+.non-suffix-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.box {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.shadow-box {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box-header {
+    background: #D3D9E9;
+    color: #23408F;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.box-content {
+    padding: 12px;
+    text-align: center;
+}
+
+.red-text {
+    color: #d32f2f;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Inputs */
+.word-input {
+    width: 100%;
+    background: #F4F4F4;
+    border: 1px solid #686666;
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+
+/* ===== Challenge ===== */
+.challenge-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.challenge-badge {
+    background: #E74C3C;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.challenge-text {
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .header-container,
+    .main-container {
+        padding: 20px;
+    }
+}
